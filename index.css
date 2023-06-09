@@ -1,0 +1,70 @@
+
+
+/* NOTES 
+6 sections total:
+    1. Header
+    2. Main Text
+    3. Some Random Information
+    4. Quote/Testimonial
+    5. Call to action 
+    6. Footer
+*/
+
+body {
+    background-color: #1f2937;
+}
+
+/* HEADER START */
+
+.header {
+    color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER END */
+
+
+.flexbox {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.info {
+    display: flex;
+
+}
+
+.quote {
+
+}
+
+.call {
+    display: flex;
+}
+
+.footer {
+
+}
+
+
+
+
