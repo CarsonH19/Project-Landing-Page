@@ -15,13 +15,18 @@ body {
 }
 
 /* HEADER START */
-
 .header {
     color: white;
-    box-shadow: 0 0 8px rgba(0,0,0,.1);
     display: flex;
     justify-content: space-around;
     padding: 8px;
+}
+
+.left {
+    font-size: 24px;
+    font-weight: bolder;
+    padding: -8px;
+
 }
 
 ul {
@@ -36,22 +41,71 @@ a {
     text-decoration: none;
     color: white;
 }
-
 /* HEADER END */
 
 
-.flexbox {
-    display: flex;
-}
-
+/* MAIN START */
 .main {
     display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin: 100px;
 }
 
-.info {
+.main-left {
+    color: white;
+}
+
+.main-right {
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+/* MAIN END */
+
+
+/* INFORMATION START */
+.info-h2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+.info-container {
+    background-color: white;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.info-box {
+    width: 30px;
+    height: 30px;
+    border: 2px royalblue
+}
+
+/* INFORMATION END */
 
 .quote {
 
