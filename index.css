@@ -46,10 +46,11 @@ a {
 
 /* MAIN START */
 .main {
-    margin: 100px;
+    padding: 80px;
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
 }
 
 .main-left {
@@ -64,6 +65,7 @@ h1 {
 }
 
 .main-text {
+    color: #e5e7eb;
 }
 .sign-up-one {
     cursor: pointer;
@@ -75,12 +77,14 @@ h1 {
   }
 
 .main-right {
-    background-color: lightgray;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    background-color:  #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 150px;
     padding-right: 150px;
-    margin-left: 30px;
+
+
+  
 }
 /* MAIN END */
 
@@ -174,7 +178,7 @@ h1 {
 }
 
 h4 {
-    margin-bottom: -18px;
+    margin-bottom: -16px;
     font-weight: bolder;
 }
 
@@ -192,7 +196,11 @@ h4 {
 
 /* FOOTER START*/
 .footer {
-
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
 /* FOOTER END*/
 
