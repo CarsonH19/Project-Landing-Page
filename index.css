@@ -56,6 +56,15 @@ a {
     color: white;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: -18px;
+}
+
+.main-text {
+}
 .sign-up-one {
     cursor: pointer;
     padding: 8px 16px;
@@ -142,27 +151,33 @@ a {
 /* QUOTE END */
 
 
+/* CALL TO ACTION START*/
 .call {
     background-color: white;
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 100px;
     padding-right: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: auto;
 }
 .call-box {
     background-color: #3882f6;
+    border-radius: 5px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 5px;
-
-
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+h4 {
+    margin-bottom: -18px;
+    font-weight: bolder;
+}
+
 
 .sign-up-two {
     cursor: pointer;
@@ -172,10 +187,14 @@ a {
     border: 1px solid white;
     color: white;
 }
+/* CALL TO ACTION END*/
 
+
+/* FOOTER START*/
 .footer {
 
 }
+/* FOOTER END*/
 
 
 
